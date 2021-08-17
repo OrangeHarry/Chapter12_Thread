@@ -9,8 +9,6 @@ public class MainThreadExample {
 		 * -동기화(synchronization)
 		 * -교착상태(deadlock)
 		 */
-		
-		
 	
 		Calculator calc = new Calculator();
 
@@ -20,7 +18,7 @@ public class MainThreadExample {
 				calc.setMemory(100);
 			}
 		};
-		jung.setName("Jung's Thread");
+		jung.setName("Jung's Thread"); //setName을 익명으로 할때는 다 작성하고 밖에서 선언해주는구나
 		Thread park = new Thread(new Runnable() {
 
 			@Override

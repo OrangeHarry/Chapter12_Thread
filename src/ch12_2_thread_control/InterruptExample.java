@@ -2,8 +2,8 @@ package ch12_2_thread_control;
 
 public class InterruptExample {
 	public static void main(String[] args) {
-//		Thread thread = new PrintThread2();
-		Thread  thread = new PrintThread3();
+		Thread thread = new PrintThread2();
+//		Thread  thread = new PrintThread3();
 		thread.start();
 
 		try {

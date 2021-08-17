@@ -13,7 +13,7 @@ public class DemonExample {
 		System.out.println("스레드 수 : " + Thread.activeCount());
 
 		try {
-			Thread.sleep(5 * 1000);
+			Thread.sleep(5 * 1000); //saver.start()가 움직이는 시간을 얘가 벌어준 거였네...그치 메인 스레드가 쭉 내려가는 속도가 훨씬 빠르니깐 바로 밑에 print()메소드로 도달하것지 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
